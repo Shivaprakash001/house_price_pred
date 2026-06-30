@@ -1,4 +1,17 @@
-/data_description.txt
-/sample_submission.csv
-/test.csv
-/train.csv
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Raw Datasets
+data/
+
+# Model and Data Serialization Pickles (Keep plots and comparison tables)
+outputs/*.pkl
+outputs/split_data.pkl
